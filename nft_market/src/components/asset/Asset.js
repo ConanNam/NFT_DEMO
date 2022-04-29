@@ -68,7 +68,7 @@ const Asset = ({ assets, loadItems }) => {
         <input type='file' name='file' onChange={handleChooseFile} />
         <Button type="primary"
           style={{margin:2}}
-          onClick={handleMintToken}>Mint</Button>
+          onClick={handleMintToken}>Minting</Button>
       </Input.Group>
       <div className='container__asset'>
         {assets?.map((item, index) => {
